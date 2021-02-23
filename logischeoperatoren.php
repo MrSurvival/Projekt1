@@ -4,7 +4,7 @@ $var2 = 10;
 
 // Aufgabe 2.1
 if($var1==$var2) {  //wenn wahr (true/1)// tue etwas} else  {  // wenn falsch (false/0)// tue etwas anderes}
-    echo "Ist Wahr!";
+    echo "Ist Wahr!"."<br>";
 }
 else{
     echo "Ist Falsch!"."<br>";
