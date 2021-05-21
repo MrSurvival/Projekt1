@@ -1,7 +1,10 @@
+<form method=“get“ action="bank_interface.php"></form>
 <?php
     $base = $_GET["betrag"];
     $jahre = $_GET["jahre"];
     $zinsen = $_GET["zinsen"];
+
+    echo $zinsen;
 
     if (($base > 1000) AND ($base < 100000) AND ($zinsen <= 1.10))
     {

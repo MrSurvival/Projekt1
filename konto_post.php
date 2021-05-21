@@ -1,7 +1,10 @@
+<form method=“post“ action="bank_interface2.php"></form>
 <?php
-    $base = $_GET["betrag"];
-    $jahre = $_GET["jahre"];
-    $zinsen = $_GET["zinsen"];
+    $base = $_POST["betrag"];
+    $jahre = $_POST["jahre"];
+    $zinsen = $_POST["zinsen"];
+
+    echo $zinsen;
 
     if (($base > 1000) AND ($base < 100000) AND ($zinsen <= 1.10))
     {
