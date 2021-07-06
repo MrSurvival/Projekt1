@@ -3,7 +3,7 @@
 	$zahlen = array();
 	for($i=0; $i<6; $i++) 
     {
-		$temp = mt_rand(1,49);
+		$temp = rand(1,49);
 		if( in_array($temp, $zahlen) ) //in_array ist vergleich der variablen mit true/false als output
         {
 			$i--;
